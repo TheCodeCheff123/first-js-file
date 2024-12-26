@@ -84,12 +84,12 @@ calculateAgeGrade()
 
 
 
-var number = Number(10); 
+var number = 20; 
 
-function classToBe(number){
+function classToBe(){
     age = number;
 
-    if (age <= number){
+    if (age <= 10){
         classNow = "primary school";
     }else if (age<= 18){
         classNow = "secondary school";
@@ -103,3 +103,8 @@ function classToBe(number){
 }
 
 classToBe()
+
+// learning variables from es6 with tutorial point
+var gender = "male";
+
+console.log("This person is a " + gender);
